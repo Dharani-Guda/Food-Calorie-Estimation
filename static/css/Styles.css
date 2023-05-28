@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    box-sizing: border-box;
+}
+.total-backgound{
+    background-color: rgb(253, 221, 253);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+     margin: 0;
+}
+.nav li{
+    display: inline-block;
+    padding: .5em;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(20, 19, 19);
+    text-decoration: none;
+    color: black;
+}
+.nav li:hover{
+    background-color: rgb(255, 189, 255);
+}
+.q-button{
+    display: inline-block;
+    padding: .5em;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(20, 19, 19);
+    text-decoration: none;
+    color: black;
+}
+.q-button:hover{
+    background-color: rgb(255, 189, 255);
+}
+.nav{
+    text-align: justify;
+    font-size: 1.1em;
+    font-weight: lighter;
+    padding: 0 4%;
+}
+.main-header{
+    background-color: rgb(205, 173, 247);
+    background-image: url(unwind\ background.jpeg);
+    background-blend-mode: lighten;
+    background-size: cover;
+    font-family: 'Pacifico', cursive;  
+    font-size: 23px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.title-name{
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+    color: rgb(46, 42, 42);
+}
+
+.total-div{
+    margin: 2em;
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-columns: 90% ;
+
+}
+.subtotal-div{
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+}
+.lets-header
+{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Acme', sans-serif;
+    font-weight: 700;
+}
+.quiz
+{
+    font-size: 28px;
+    text-align: unset;
+    font-family: 'Secular One', sans-serif;
+}
+.quiz-ins
+{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.submit-button 
+{
+    width: 250px; 
+    height: 57px;  
+    border: none;
+    color: white;
+    background-color: rgb(187, 127, 187);
+    border-radius: 1em;
+    box-shadow: inset 0 0 0 0 #ec34e3;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none; 
+}
+    
+.submit-button:hover 
+{
+    box-shadow: inset 300px 0 0 0#e4a9e2;
+    cursor: pointer; 
+    color: white;
+}
+.dropdown-button
+{
+    width: 150px; 
+    height: 30px;  
+    border: none;
+    color: white;
+    background-color: violet;
+    border-radius: 2em;
+    box-shadow: inset 0 0 0 0 #fa55f2;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    text-align: center;
+    outline: none; 
+    
+}
+.dropdown-button:hover 
+{
+    box-shadow: inset 300px 0 0 0#fa55f2;
+    cursor: pointer; 
+    color: white;
+}
+.dropdown-depbutton
+{
+    width: 300px; 
+    height: 50px;  
+    border: none;
+    color: white;
+    background-color: violet;
+    border-radius: 2em;
+    box-shadow: inset 0 0 0 0 #fa55f2;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    outline: none; 
+
+}
+.dropdown-depbutton:hover 
+{
+    box-shadow: inset 300px 0 0 0#fa55f2;
+    cursor: pointer; 
+    color: white;
+}
+.dep-que
+{
+
+    font-family: 'Secular One', sans-serif;
+    font-size: 19px;
+}
+.next-button
+{
+    width: 250px; 
+    height: 57px;  
+    border: none;
+    color: white;
+    background-color: rgb(187, 127, 187);
+    border-radius: 1em;
+    box-shadow: inset 0 0 0 0 #ec34e3;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none; 
+}
+.next-button:hover
+{
+    box-shadow: inset 300px 0 0 0#e4a9e2;
+    cursor: pointer; 
+    color: white;
+}
+.dep-res{
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    font-size: 19px;
+}
+.dep-radio-bt
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+}
+.result-head
+{
+    font-family: 'Asap', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.header{
+    font-size: 28px;
+    font-family: 'Acme', sans-serif;
+    font-weight: 700;
+}
+.header2
+{
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+    font-weight: 700;
+}
+.pic1{
+    width: 20px;
+    height: 10px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-5.0.2-dist/login.css') }}" />
+        <style>
+            html, body {
+    min-height: 100%;
+}
+        </style>
+    </head>
+    <body background="{{ url_for('static', filename='bootstrap-5.0.2-dist/brooke-lark-HlNcigvUi4Q-unsplash.jpg') }}">
+        <div class="card">
+        <form action="{{url_for('signin')}}" method="post">
+        <h1 style="color:white">Login</h1>
+        
+        <div class="container"><hr>
+        Username:<input type="text" name="user" placeholder="Enter Username" size="25" style="font-size:40pt;" required /><br><br>
+        Password:<input type="password" placeholder="Enter Password" name="password" size="25" style="font-size:40pt;" required /><br><br>
+        <input type="submit" name="submit" value="Login" size="28" id="sub" /></div>
+        </form>
+        {{msg}}
+    </div>
+</body>
+</html>
